@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title> My Site </title>
+        <style>            
+            body {
+                background-color: rgb(255, 255, 255);
+                color: rgb(255, 255, 255);
+                font-family: cursive, fantasy, 'Times New Roman', Times, serif Arial, Helvetica, sans-serif}
+        h1 {
+            text-align: center;
+            width: 100%;
+            height: 50%;
+            background: rgb(71, 0, 71);
+            color: rgb(0, 255, 0);
+            }
+            h2 {
+                text-align: center;
+                width: 100%;
+                height: 50%;
+                background:rgb(71, 0, 71);
+                color: rgb(0, 255, 0);
+                }
+                button {
+                    background: rgb(71, 0, 71);
+                    border: none;
+                    color: rgb(0, 255, 0);
+                }
+                header {
+                    background: rgb(71, 0, 71);                   
+                    color: rgb(0, 255, 13);
+                }
+                img {
+                    width: 50%;
+                    height: 0%;
+                    margin: 0px auto;
+                    display: block;
+                }
+
+                section {
+                    background: rgb(71, 0, 71);
+                    color: rgb(0, 255, 13);
+                    padding: 20px
+                }
+                
+                footer {
+                    background: rgb(138, 0, 96);
+                    color: rgb(00, 255, 13)
+                }
+                <STYLE TYPE="text/css">
+                <!--BODY {
+                    background-color: #ffffff;
+                    background-image:X.jpg;
+                    background-repeat: no-repeat;
+                    background-position: 0% 0% } -->         
+                </style>
+    </head>
+    <body>
+        <body background="X.jpg"</body>
+        <header>Header</header>
+        <img src="X" alt="X"
+        height="150px" width="150px" style="vertical-align-middle" />
+        <section>Triple-Section</section>
+        <section>Lower-Section</section>
+        <footer>Footer</footer>
+        <h1>My Online Resume</h1>
+        <div></div>
+
+        <h2>About Me</h2>
+       <p> Greetings! </p>
+           My name is Jesse Senn. I am a Graphic Designer, CG Special FX Artist, and Web Designer.
+           I have a wide range of skills such as animating, rigging, and environment design
+           in Unreal Engine 4, ArchViz, and Blender,
+           I am also proficient in the Adobe Suite as well as FL Studio and Pro Tools for Audio Production.
+           So, whether you need a high quality market ready graphic or audio, or anything in between,
+           I have you covered.
+    </p> 
+    <button> Contact </button>
+    </body>
+</html>

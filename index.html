@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Site</title>
+
+  <style>
+
+  h1 {
+      text-align: left;
+      width: 100%;
+      height: 50%;
+      color: black;
+    }
+
+    .button:hover {
+      box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0.2);
+      transition-duration: 0.5;
+      background-repeat: repeat-y;
+      background-position: center;
+      box-sizing: img-box;
+      font-size: 20px;
+      padding: 1px 10px;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <script>
+    function mouseOver() {
+      document.getElementById("mouseover").style.color = "blue";
+    }
+
+    function mouseOut() {
+      document.getElementById("mouseover").style.color = "black";
+    }
+  </script>
+
+  <table cellspacing="1px">
+    <tr>
+      <td><img src="images/Jesse.png" align="top" width="180px" alt="Jesse Senn" />
+      <td>
+        <h1 id="mouseover" onmouseover="mouseOver()" onmouseout="mouseOut()">Jesse K. Senn</h1>
+        <p><em>Graphic Designer, Digital Content Manager.</em></p>
+
+        <button><a href="contact.html" class="button">Contact</button></a>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <hr color="black" />
+
+  <p><a href="education.html">Education</a></p>
+
+  <hr color="black" />
+  <p>
+    <a href="hobbies.html">Hobbies</a>
+  </p>
+  <hr color="black" />
+  <td>
+    <p>
+      <h3>Work Experience</h3>
+    </p>
+    <table border=0px>
+      <tr>
+        <th>
+          2010-2019:
+        </th>
+        <td>DCM at Synergy Designs & Marketing</td>
+      </tr>
+    </table>
+    <hr color="black">
+    <table border="0px" height="1px" cellspacing="1px">
+      <p>
+        <h3>Character Attributes</h3>
+      </p>
+      <tr1>
+        <th>Intelligence</th>
+        <td bgcolor="" width="100px">🧠🧠🧠🧠</td>
+        <th>Perception</th>
+        <td bgcolor="" width="110px">🧠🧠🧠🧠🧠</td>
+        </tr>
+        <tr>
+        <tr>
+          <th>Speed</th>
+          <td width="100px" bgcolor="">🧠🧠🧠</td>
+          <th>Strength</th>
+          <td bgcolor="" width="100px">🧠🧠</td>
+        </tr>
+        <tr>
+        <tr>
+        <tr>
+          <th>Speech</th>
+          <td width="120px" bgcolor="">🧠🧠🧠🧠🧠</td>
+          <th>Guile</th>
+          <td width="100px" bgcolor="">🧠🧠🧠</td>
+        </tr>
+        <tr>
+          <th>Charisma</th>
+          <td width="100px" bgcolor="">🧠🧠🧠🧠🧠</td>
+          <th>Crafting</th>
+          <td width="100px" bgcolor="">🧠🧠🧠</td>
+        </tr>
+        </tr>
+    </table>
+
+    <hr color="black">
+</body>
+
+</html>
